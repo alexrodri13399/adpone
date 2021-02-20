@@ -42,8 +42,8 @@ function myFunction() {
 }
 
 function borrar() {
+    //Al pulsar Borra se borraran todos los campos
     var mensaje = document.getElementById("mensaje");
-    //Cada vez que le damos a enviar ponemos el resultado en blanco para que no se acomule
     mensaje.innerHTML = '';
     document.getElementById("datos").value = "";
 }
